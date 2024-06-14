@@ -42,11 +42,11 @@ using GeometryLibrary;
 
 // Вычисление площади круга
 var circle = new Circle(5);
-Console.WriteLine($"Cirle of area: {circle.GetArea()}");
+Console.WriteLine($"Area of circle: {circle.GetArea()}");
 
 // Вычисление площади треугольника
 var triangle = new Triangle(3, 4, 5);
-Console.WriteLine($"Cirle of triangle: {triangle.GetArea()}");
+Console.WriteLine($"Area of triangle: {triangle.GetArea()}");
 
 // Проверка, является ли треугольник прямоугольным
 Console.WriteLine($"Is triangle right? {triangle.IsRight()}");
